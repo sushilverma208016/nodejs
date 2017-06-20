@@ -1,0 +1,26 @@
+
+@html.extend('sitelayout',function(model){
+
+	@html.block('body',function(model){
+
+        <table class="table table-striped" >
+            <tr> 
+                <th> Statement </th>
+                <th> Option 1 </th>
+                <th> Option 2 </th>
+                <th> Option 3 </th>
+                <th> Option 4 </th>
+            </tr>
+
+            @for ( let question of model.questions ) {
+                <tr> 
+                    <td> @question.statement </td>
+                    <td> @question.op1 </td>
+                    <td> @question.op2 </td>
+                    <td> @question.op3 </td>
+                    <td> @question.op4 </td>
+                </tr>
+            }
+        </table>
+    });
+});

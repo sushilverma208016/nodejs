@@ -1,0 +1,16 @@
+@html.extend('sitelayout',function(model){ 
+
+	@html.block('body',function(model){
+        <h1> Welcome </h1>
+
+        <input type="input" />
+        <br/>
+        <button onclick="getData()" > Get Data </button>
+        <br/>
+        <div id="output" > </div>
+        <img id="busy" src="busy.gif" style="width: 10%; visibility: hidden;" />
+
+        <script src="/app19.js" >
+        </script>
+    });
+});

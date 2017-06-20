@@ -1,0 +1,76 @@
+
+---------------Node JS Training---------------------
+
+Ryan Dahl: Node.exe
+single threded
+non blocking i/o: async and await
+V8 js Engine
+
+browser.exe: HTML dom tree (window object)
+Node.exe: global object
+console lib. TCP server lib. HTTP server lib. file system lib. 
+
+desktop apps: console and GUI
+server-side apps
+Load and go
+
+windows: cscript
+REPL: read eval print loop
+
+JS: visual studio code, atom
+
+__proto__ : prototype object
+key value pair container 
+module and global object
+
+><tab> : all modules
+>global. <tab> <tab>: all global modules
+
+main thread -> thread waits in event loop 
+function less than 50ms: non-blocking call
+
+Shakeel: http://leadows2.azurewebsites.net/paste/itemview
+www.leadows.com/node.zip
+www.leadows.com/day2.zip
+ali.shakeel@gmail.com 9845567086
+www.leadows.com/node.zip : whole code 
+medium article: top 10 articles on node 
+developing desktop app using electron on medium (sound machine)
+
+w3 school canvas clock with different time-jone: convert in angular
+chat application with socket.io app
+whiteboard app (drawing app)
+digital clock (time left)
+
+function: capital -> class, small -> function
+
+mysql: localhost, root, admin, 3310
+
+non-ajax way of develping website
+non-xhr request
+browser: single thread architecture
+alert box blocks main thread of browser 
+
+code .
+npm init
+npm install express-generator --save
+npm install electron -g --save-dev
+npm start
+electron ./main.js
+electron .
+node ./bin/www
+
+Library:
+electron-fetch, node-request : HTTP client, libUV
+NoSql DB: mongoDB, documentDB
+C:\mongodb\bin>mongod --dbpath=C:/Users/vsushil/Desktop/electronapps --port 27018
+mongose, monk, mongodb
+angular, react: component layout
+
+redux - store
+MEAN: Mongo/MySql/Sqlite  Express/Electron  Angular/React  Node
+npm install -g typescript
+tsc
+tsc -w
+
+Packaging: electron-packager ./   app1   --platform=win32 --electron-version=1.6.2 --overwrite
